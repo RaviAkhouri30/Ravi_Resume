@@ -2,6 +2,10 @@
     ------------------------ Tag Selectors Starts Here -----------------------------
 */
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: 'Montserrat', sans-serif;
     overflow-x: hidden;
@@ -11,7 +15,7 @@ header {
     margin: 0;
     padding: 0;
     height: 550px;
-    background-color: #3F3E3C;
+    background-color: #7868e6;
     animation-name: fade-in;
     animation-duration: 5.0s;
 }
@@ -23,7 +27,7 @@ h1 {
     margin: 50px auto 0 auto;
     line-height: 1;
     font-family: 'Sacramento', cursive;
-    text-shadow: 2px 4px 5px #888888;
+    text-shadow: 2px 4px 5px #b8b5ff;
     animation-name: fade-in;
     animation-duration: 5.0s;
 }
@@ -34,7 +38,7 @@ h2 {
     margin: 30px auto 0 auto;
     color: #fff;
     font-size: 2rem;
-    text-shadow: 2px 4px 5px #888888;
+    text-shadow: 2px 4px 5px #b8b5ff;
     animation-name: fade-in;
     animation-duration: 5.0s;
 }
@@ -43,7 +47,7 @@ hr {
     border-style: dotted none none;
     width: 7%;
     border-width: 0.25rem;
-    border-color: #888888;
+    border-color: #b8b5ff;
     margin: 5px auto;
 }
 
@@ -78,7 +82,7 @@ hr {
 }
 
 .nav-link:hover {
-    text-shadow: 2px 4px 5px #888888;
+    text-shadow: 2px 4px 5px #b8b5ff;
 }
 
 .navbar-brand {
@@ -90,7 +94,7 @@ hr {
 }
 
 .navbar-brand:hover {
-    text-shadow: 2px 4px 5px #888888;
+    text-shadow: 2px 4px 5px #b8b5ff;
 }
 
 .brand {
@@ -108,13 +112,13 @@ hr {
     font-size: 1.2rem;
     font-weight: 600;
     transition: transform 0.4s ease-in-out;
-    box-shadow: 3px 3px 4px #888888;
+    box-shadow: 3px 3px 4px #b8b5ff;
     animation-name: fade-in;
     animation-duration: 5.0s;
 }
 
 .download-btn:hover {
-    box-shadow: 1px 1px 4px #888888;
+    box-shadow: 1px 1px 4px #b8b5ff;
     transform: translate(2px, 2px);
 }
 
@@ -131,7 +135,7 @@ hr {
     overflow: hidden;
     background-color: aliceblue;
     border: 10px solid #fff;
-    box-shadow: 5px 10px 15px #888888;
+    box-shadow: 5px 10px 15px #b8b5ff;
     transition: transform 0.5s ease-in-out;
 }
 
@@ -142,7 +146,7 @@ hr {
 }
 
 .profile-sec:hover {
-    box-shadow: 7px 12px 15px #888888;
+    box-shadow: 7px 12px 15px #b8b5ff;
     transform: translate(-4px, 4px);
     animation-name: tumble;
     animation-duration: 1s;
@@ -161,12 +165,13 @@ hr {
     padding: 2rem 2rem;
     animation-name: fade-in;
     animation-duration: 5.0s;
-    background-color: #f9f3f3;
+    background-color: #edeef7;
     font-weight: 600;
+    color: #7868e6;
 }
 
 #about-me h3, p {
-    color: #3F3E3C;
+    color: #7868e6;
 }
 
 #about-me h3 {
@@ -190,23 +195,102 @@ hr {
     padding: 2rem 2rem;
     animation-name: fade-in;
     animation-duration: 5.0s;
-    background-color:  #3F3E3C;
+    background-color: #7868e6;
     font-weight: 600;
     color: #fff;
+    line-height: 2;
 }
 
 #work-experience .heading {
     font-size: 2.5rem;
     font-weight: bolder;
+    margin: 5px 0 20px;
 }
 
 #work-experience .sub-heading {
     font-size: 1.5rem;
     font-weight: bolder;
+    margin: 5px 0 25px;
+}
+
+#work-experience article {
+    color: #fff;
+    font-weight: 400;
+    line-height: 1.5;
+    font-size: 1rem;
+}
+
+#work-experience strong {
+    font-weight: bolder;
+    font-size: 1.15rem;
 }
 
 /* 
     ----------------------- Work Experience Section Starts Here -----------------
+*/
+
+/* 
+    ----------------------- Skills Section Starts Here --------------------------
+*/
+
+#skills {
+    padding: 2rem 2rem;
+    animation-name: fade-in;
+    animation-duration: 5.0s;
+    background-color: #edeef7;
+    font-weight: 600;
+    color: #7868e6;
+}
+
+#skills .list-no-style {
+    list-style: none;
+}
+
+#skills .heading {
+    font-size: 2.5rem;
+    font-weight: bolder;
+    margin: 5px 0 20px;
+}
+
+#skills progress {
+    display: block;
+    width: 90%;
+    height: 20px;
+    border: 0;
+    margin: 0px 0 10px;
+}
+
+#skills progress::-webkit-progress-bar {
+    background-color: #dddddd;
+    color: red;
+}
+
+#skills progress::-webkit-progress-value {
+    background-color: #7868e6;
+    transition: background-color 2s ease-in-out;
+}
+
+#skills progress::-webkit-progress-value:hover {
+    background-color: #b8b5ff;
+}
+
+#skills li {
+    margin: 0 15%;
+}
+
+#skills ul {
+    font-size: 1.7rem;
+    font-weight: bolder;
+}
+
+#skills li ul label {
+    display: block;
+    margin: 2.5px 10px;
+    margin: 10px 0;
+}
+
+/* 
+    ----------------------- Skills Section Ends Here --------------------------
 */
 
 /* 
@@ -328,6 +412,15 @@ hr {
     }
     to {
         opacity: 1;
+    }
+}
+
+@keyframes progress-animate {
+    from {
+        height: 25px;
+    }
+    to {
+        transform: 20px;
     }
 }
 
