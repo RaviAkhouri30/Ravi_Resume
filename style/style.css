@@ -7,17 +7,20 @@ html {
 }
 
 body {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Nunito', sans-serif;
     overflow-x: hidden;
+    background-color: #edeef7;
 }
 
 header {
+    position: relative;
     margin: 0;
     padding: 0;
     height: 550px;
     background-color: #7868e6;
     animation-name: fade-in;
     animation-duration: 5.0s;
+    z-index: 0;
 }
 
 h1 {
@@ -97,6 +100,21 @@ hr {
     text-shadow: 2px 4px 5px #b8b5ff;
 }
 
+.collapse-navbar-brand {
+    display: none;
+}
+
+.navbar-toggler {
+    color: #fff;
+    right: 20px;
+    top: 20px;
+    font-size: 2rem;
+}
+
+.navbar-toggler-icon {
+    padding-top: 5px;
+}
+
 .brand {
     position: absolute;
     animation-name: left-to-right;
@@ -153,6 +171,15 @@ hr {
     animation-iteration-count: infinite;
 }
 
+.transparent-bg {
+    position: absolute;
+    width: 75%;
+    height: 100%;
+    border-radius: 1%;
+    background-color: rgba(255, 255, 255, 0.1);
+    right: 12%;
+}
+
 /* 
     ------------------------ Headers Section Ends Here -----------------------------
 */
@@ -192,6 +219,7 @@ hr {
 */
 
 #work-experience {
+    position: relative;
     padding: 2rem 2rem;
     animation-name: fade-in;
     animation-duration: 5.0s;
@@ -199,6 +227,7 @@ hr {
     font-weight: 600;
     color: #fff;
     line-height: 2;
+    z-index: 0;
 }
 
 #work-experience .heading {
@@ -279,7 +308,7 @@ hr {
 }
 
 #skills ul {
-    font-size: 1.7rem;
+    font-size: 1.3rem;
     font-weight: bolder;
 }
 
@@ -324,6 +353,124 @@ hr {
 /* 
     ----------------------- Common Section Ends Here --------------------------
 */
+
+.water-mark {
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background-color: #b8b5ff;
+    background-image: radial-gradient(circle, #fff, #7868e6, #b8b5ff);
+    top: 16%;
+    left: 2%;
+    z-index: -1;
+}
+
+.water-mark_1 {
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background-color: #b8b5ff;
+    background-image: radial-gradient(circle, #fff, #7868e6, #b8b5ff);
+    top: 56%;
+    left: 85%;
+    z-index: -1;
+}
+
+.water-mark_2 {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: #b8b5ff;
+    background-image: radial-gradient(circle, #fff 5%, #7868e6 54%, #b8b5ff 74%);
+    top: 21%;
+    left: 27%;
+    z-index: -1;
+}
+
+.water-mark_4 {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: #b8b5ff;
+    background-image: radial-gradient(circle, #fff 5%, #7868e6 54%, #b8b5ff 74%);
+    top: 7%;
+    right: 9%;
+    z-index: -1;
+}
+
+.water-mark_5 {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: #b8b5ff;
+    background-image: radial-gradient(circle, #fff 5%, #7868e6 54%, #b8b5ff 74%);
+    top: 12%;
+    right: 3%;
+    z-index: -1;
+}
+
+.water-mark_6 {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: #b8b5ff;
+    background-image: radial-gradient(circle, #fff 5%, #7868e6 54%, #b8b5ff 74%);
+    bottom: 5%;
+    left: 3%;
+    z-index: -1;
+}
+
+.water-mark_7 {
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background-color: #b8b5ff;
+    background-image: radial-gradient(circle, #fff 5%, #7868e6 54%, #b8b5ff 74%);
+    bottom: 7%;
+    left: 33%;
+    z-index: -1;
+}
+
+.water-mark_8 {
+    position: absolute;
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    background-color: #b8b5ff;
+    background-image: radial-gradient(circle, #fff 5%, #7868e6 54%, #b8b5ff 74%);
+    top: 16%;
+    left: 62%;
+    z-index: -1;
+}
+
+.water-mark_9 {
+    position: absolute;
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    background-color: #b8b5ff;
+    background-image: radial-gradient(circle, #fff 5%, #7868e6 54%, #b8b5ff 74%);
+    bottom: 16%;
+    right: 32%;
+    z-index: -1;
+}
+
+.water-mark_3 {
+    position: relative;
+    margin: 0px auto;
+    height: 10px;
+    width: 35px;
+    border-radius: 50%;
+    background-color: #b8b5ff;
+    background-image: radial-gradient(circle, #fff, #7868e6, #fff);
+}
 
 /* 
     ----------------------- Animation Section Starts Here ---------------------
@@ -424,6 +571,38 @@ hr {
     }
 }
 
+
 /* 
     ----------------------- Animation Section Ends Here ---------------------
 */
+
+@media (max-width: 1028px) {
+    .navbar {
+        text-align: left;
+    }
+    .navbar-brand {
+        display: none;
+        font-size: 2.5rem;
+        font-weight: 600;
+    }
+    .collapse-navbar-brand {
+        color: #fff;
+        margin: 0;
+        display: inline-block;
+        font-size: 2.2rem;
+        font-weight: 600;
+        font-family: 'Sacramento', cursive;
+    }
+    .collapse-navbar-brand:hover {
+        text-shadow: 2px 4px 5px #b8b5ff;
+    }
+    .profile-sec {
+        margin: auto;
+    }
+    h1 {
+        font-size: 3.625rem;
+    }
+    header {
+        height: 100%;
+    }
+}
