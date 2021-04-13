@@ -2,197 +2,322 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="favicon.ico" type="image/x-icon">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link
-        href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Montserrat:wght@300&family=Sacramento&display=swap"
-        rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Montserrat:wght@300&family=Sacramento&display=swap"
+    rel="stylesheet">
 
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap" rel="stylesheet">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
-        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+    integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
 
-    <!-- local style sheet -->
-    <link rel="stylesheet" href="style/style.css">
+  <!-- local style sheet -->
+  <link rel="stylesheet" href="style/style.css">
 
-    <!-- Bootstap jQuery Library -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
-        crossorigin="anonymous"></script>
+  <!-- Bootstap jQuery Library -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+    crossorigin="anonymous"></script>
 
-    <!-- Font Awesome -->
-    <script src="https://kit.fontawesome.com/12a453b66f.js" crossorigin="anonymous"></script>
-    <title>My Resume</title>
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/12a453b66f.js" crossorigin="anonymous"></script>
+  <title>My Resume</title>
 </head>
 
 <body>
-    <div class="container-fluid">
+  <div class="container-fluid">
 
-        <header>
-            <div class="header">
-                <nav class="navbar navbar-expand-lg">
-                    <a class="navbar-brand text-light" href="#"> <span class="brand">Ravi Akhouri</span> </a>
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation-bar"
-                        aria-colcount="navnavigation-bar" aria-expanded="false" aria-label="Navigation Bar">
-                        <span class="navbar-toggler-icon"><i class="fas fa-bars"></i></span>
+    <header id="header-section">
+      <div class="header">
 
-                        <span class="collapse-navbar-brand">
-                            <span>Ravi Akhouri</span>
-                        </span>
+        <nav class="navbar navbar-expand-lg  sticky-top">
+          <a class="navbar-brand text-light" href="#"> <span class="brand">Ravi Akhouri</span> </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation-bar"
+            aria-colcount="navnavigation-bar" aria-expanded="false" aria-label="Navigation Bar">
+            <span class="navbar-toggler-icon"><i class="fas fa-bars"></i></span>
 
-                    </button>
-                    <div class="collapse navbar-collapse" id="navigation-bar">
-                        <ul class="navbar-nav ml-auto">
-                            <li class="nav-item"><a href="#" class="nav-link text-light">HOME</a></li>
-                        </ul>
-                        <ul class="navbar-nav">
-                            <li class="nav-item"><a href="#about-me" class="nav-link text-light">ABOUT</a></li>
-                        </ul>
-                        <ul class="navbar-nav">
-                            <li class="nav-item"><a href="#work-experience" class="nav-link text-light">EXPERIENCE</a>
-                            </li>
-                        </ul>
-                        <ul class="navbar-nav">
-                            <li class="nav-item"><a href="#skills" class="nav-link text-light">SKILLS</a></li>
-                        </ul>
-                    </div>
-                </nav>
-                <div class="row mt-4">
-                    <div class="col-md-4">
-                        <div class="profile-sec">
-                            <img src="images/Ravi_Passport.jpg" alt="profile-picture" class="profile-pic">
-                        </div>
-                    </div>
-                    <div class="col-md-8 text-align-left padding-top-40">
-                        <div class="transparent-bg"></div>
-                        <h1> I'm Ravi Akhouri</h1>
-                        <div class="water-mark_3"></div>
-                        <h2>angular and ui developer</h2>
-                        <div class="button-container">
-                            <button type="button" class="btn btn-light btn-lg download-btn"><i
-                                    class="fas fa-download"></i> Download Resume</button>
-                        </div>
-                    </div>
-                </div>
+            <span class="collapse-navbar-brand">
+              <span>Ravi Akhouri</span>
+            </span>
 
+          </button>
+          <div class="collapse navbar-collapse" id="navigation-bar">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item"><a href="#header-section" class="nav-link text-light">HOME</a></li>
+            </ul>
+            <ul class="navbar-nav">
+              <li class="nav-item"><a href="#about-me" class="nav-link text-light">ABOUT</a></li>
+            </ul>
+            <ul class="navbar-nav">
+              <li class="nav-item"><a href="#work-experience" class="nav-link text-light">EXPERIENCE</a>
+              </li>
+            </ul>
+            <ul class="navbar-nav">
+              <li class="nav-item"><a href="#skills" class="nav-link text-light">SKILLS</a></li>
+            </ul>
+          </div>
+        </nav>
+
+        <div class="row mt-4">
+          <div class="col-md-4">
+            <div class="profile-sec">
+              <img src="images/Ravi_Passport.jpg" alt="profile-picture" class="profile-pic">
             </div>
-            <div class="water-mark"></div>
-            <div class="water-mark_1"></div>
-            <div class="water-mark_2"></div>
-            <!-- <div class="water-mark_4"></div>
-            <div class="water-mark_5"></div>
-            <div class="water-mark_6"></div>
-            <div class="water-mark_7"></div>
-            <div class="water-mark_8"></div>
-            <div class="water-mark_9"></div> -->
-        </header>
-        <hr>
-        <section id="about-me">
-
-            <div class="row">
-                <div class="col-md-12">
-                    <h3>About Me</h3>
-                </div>
-                <div class="col-md-6">
-
-                    <p class="padding-r-100">
-                        Hello! I'm Ravi Akhouri. I am passionate about Angular UI Development. I'm skilled frontend
-                        developer using angular as a framework along with typescript and javaScript.
-                    </p>
-                </div>
-                <div class="col-md-6 padding-tb-2-lr-10 line-height-2-5">
-                    <span>Date of Birth</span> <span class="text-align-right">30-03-1997</span> <br>
-                    <span>Primary Mobile </span> <span class="text-align-right">7003717376</span> <br>
-                    <span>Secondary Mobile</span> <span class="text-align-right">8804804868</span> <br>
-                    <span>Email </span> <span class="text-align-right">ravi.akhouri@gmail.com</span> <br>
-                </div>
+          </div>
+          <div class="col-md-8 text-align-left padding-top-40">
+            <div class="transparent-bg"></div>
+            <h1> I'm Ravi Akhouri</h1>
+            <div class="water-mark_3"></div>
+            <h2>angular and ui developer</h2>
+            <div class="button-container">
+              <button type="button" class="btn btn-light btn-lg download-btn"><i class="fas fa-download"></i> Download
+                Resume</button>
             </div>
+          </div>
+        </div>
 
-        </section>
-        <hr>
-        <section id="work-experience">
-            <div class="water-mark_4"></div>
-            <h3 class="heading">Work Experience</h3>
-            <h4 class="sub-heading">Wipro Ltd.</h4>
-            <article><strong>Project Name : </strong> IFMS (Integrated Financial Management System of Govt. of Gujarat)
-                <br> <br>
-                <strong>Description : </strong> The Department of Finance, Government of Gujarat plays a pivotal role in
-                the development of the state by providing sound and efficient finance management system for good
-                governance .The Department is mainly concerned with the matters of taxation that are under the purview
-                of the state governments, financial matters, regulation of financial institutions created by Government
-                of Gujarat and the preparation of the state government budget. The main aim of the Department of Finance
-                is to create and sustain a framework that contributes to prudent fiscal management and thereby ensures
-                fiscal stability. The approach of the Finance department revolves around optimum utilisation of
-                resources, elimination of revenue deficit, enabling sustainable debt management and ensuring greater
-                transparency in the financial operations of the Government of Gujarat. The fiscal framework created in
-                such a manner contributes to sound public finances, enabling the state government to contribute to the
-                public welfare by financing greater number of schemes with higher availability of resources. <br> <br>
-                <Strong>Role: </Strong> Angular UI Developer | Module Lead <br><br>
-                <strong>Responsibilities : </strong> As an Angular Developer, my responsibility is to implement
-                Business Logic, Validations and integration of RestApis. Also Taken a responsibility
-                as a Module Lead to make a cordination in a Team for smooth approach towards common goal of completing
-                Module/Funtionalities and UAT/SIT
-                Releases, and
-                also coordinate with Release Team for Deployment on SIT/UAT. I started as a Prototype
-                Developer and soon moved to development and I worked on modules such as PVU, Budget, EDP
-                and now handling DDO Module. I also acheived a award for Outperformance in Q1. In PVU, I worked
-                on a sub Module.i.e. ROP, after completing my tasks of development of screens for the same, moved to
-                Budget,
-                create a number of common, reusable and efficient code like common components and directives for faster
-                and more efficient way of development to reduce the development time and complexity, then moved
-                to EDP and given the task to complete work flow integration and resolving bugs towards UAT sign off and
-                then given a responsibility of Module Lead in DDO Module to make a cordination and to contribute towards
-                the completion of Module and subsiquently approaching towards SIT and then UAT Release. To handle
-                similar looking screens but with different functionality and behaviour using configuration layer,
-                created each section as separate components and also a common configuration components and container
-                that handles all the different child components. The Configuration was created to handle the behaviour
-                of different screen such as default fields values, remove some fields and add some fields, remove
-                section and add section, changing the contents of DOM. A Configuration service layer is also created to
-                dynamically change the configuration to handle behaviour of view and edit case and fields validation and
-                access. Also, Implemented oops such as encapsulation, abstraction and inherientance and also reduce the
-                code redundancy to large extent. Implemented a robust validation for both save as draft and submit case.
-                Properly modelling of data and created a complete module structure from scratch. Due to the
-                implementation of common code Structure, the development time is reduced and making use of oops, created
-                a structure that enables reducing of errors/bugs and easy to debug. Using debugging techniques, resolve
-                the SIT bugs to enable faster releases and making the code bugs/errors free. Also implemnted the State
-                management system in service layer using rxjs Behavioural Subject.
-            </article>
-        </section>
-        <hr>
-        <section id="skills">
+      </div>
+      <div class="water-mark"></div>
+      <div class="water-mark_1"></div>
+      <div class="water-mark_2"></div>
+    </header>
 
-            <h3 class="heading">Skills</h3>
+    <hr>
 
-            <li class="list-no-style">
-                <ul>
-                    <label for="angular"> Angular </label> <progress id="angular" value="100" max="100"></progress>
-                    <label for="ts"> Typescript </label> <progress id="ts" value="90" max="100"></progress>
-                    <label for="js"> JavaScript </label> <progress id="js" value="90" max="100"></progress>
-                    <label for="html"> HTML5 </label> <progress id="html" value="85" max="100"></progress>
-                    <label for="css"> CSS </label> <progress id="css" value="80" max="100"></progress>
-                    <label for="bootstrap"> Bootstrap </label> <progress id="bootstrap" value="70" max="100"></progress>
-                    <label for="git"> GIT </label> <progress id="git" value="60" max="100"></progress>
-                    <label for="azure"> Azure Fundamentals </label> <progress id="azure" value="60"
-                        max="100"></progress>
-                </ul>
-            </li>
+    <section id="about-me">
 
-        </section>
-        <hr>
-        <footer>
+      <div class="row">
+        <div class="col-md-12">
+          <h3>About Me</h3>
+        </div>
+        <div class="col-md-6">
 
-        </footer>
+          <p class="padding-r-100">
+            Hello! I'm Ravi Akhouri. I am passionate about Angular UI Development. I'm skilled frontend
+            developer using angular as a framework along with typescript and javaScript.
+          </p>
+        </div>
+        <div class="col-md-6 padding-tb-2-lr-10 line-height-2-5">
+          <span>Date of Birth</span> <span class="text-align-right">30-03-1997</span> <br>
+          <span>Primary Mobile </span> <span class="text-align-right">7003717376</span> <br>
+          <span>Secondary Mobile</span> <span class="text-align-right">8804804868</span> <br>
+          <span>Email </span> <span class="text-align-right">ravi.akhouri@gmail.com</span> <br>
+        </div>
+      </div>
 
-    </div>
+    </section>
+    <hr>
+    <section id="work-experience">
+      <div class="water-mark_4"></div>
+      <h3 class="heading">Work Experience</h3>
+      <h4 class="sub-heading">Wipro Ltd.</h4>
+      <article><strong>Project Name : </strong> IFMS (Integrated Financial Management System of Govt. of Gujarat)
+        <br> <br>
+        <strong>Description : </strong> The Department of Finance, Government of Gujarat plays a pivotal role in
+        the development of the state by providing sound and efficient finance management system for good
+        governance .The Department is mainly concerned with the matters of taxation that are under the purview
+        of the state governments, financial matters, regulation of financial institutions created by Government
+        of Gujarat and the preparation of the state government budget. The main aim of the Department of Finance
+        is to create and sustain a framework that contributes to prudent fiscal management and thereby ensures
+        fiscal stability. The approach of the Finance department revolves around optimum utilisation of
+        resources, elimination of revenue deficit, enabling sustainable debt management and ensuring greater
+        transparency in the financial operations of the Government of Gujarat. The fiscal framework created in
+        such a manner contributes to sound public finances, enabling the state government to contribute to the
+        public welfare by financing greater number of schemes with higher availability of resources. <br> <br>
+        <Strong>Role: </Strong> Angular UI Developer | Module Lead <br><br>
+        <strong>Responsibilities : </strong> As an Angular Developer, my responsibility is to implement
+        Business Logic, Validations and integration of RestApis. Also Taken a responsibility
+        as a Module Lead to make a cordination in a Team for smooth approach towards common goal of completing
+        Module/Funtionalities and UAT/SIT
+        Releases, and
+        also coordinate with Release Team for Deployment on SIT/UAT. I started as a Prototype
+        Developer and soon moved to development and I worked on modules such as PVU, Budget, EDP
+        and now handling DDO Module. I also acheived a award for Outperformance in Q1. In PVU, I worked
+        on a sub Module.i.e. ROP, after completing my tasks of development of screens for the same, moved to
+        Budget,
+        create a number of common, reusable and efficient code like common components and directives for faster
+        and more efficient way of development to reduce the development time and complexity, then moved
+        to EDP and given the task to complete work flow integration and resolving bugs towards UAT sign off and
+        then given a responsibility of Module Lead in DDO Module to make a cordination and to contribute towards
+        the completion of Module and subsiquently approaching towards SIT and then UAT Release. To handle
+        similar looking screens but with different functionality and behaviour using configuration layer,
+        created each section as separate components and also a common configuration components and container
+        that handles all the different child components. The Configuration was created to handle the behaviour
+        of different screen such as default fields values, remove some fields and add some fields, remove
+        section and add section, changing the contents of DOM. A Configuration service layer is also created to
+        dynamically change the configuration to handle behaviour of view and edit case and fields validation and
+        access. Also, Implemented oops such as encapsulation, abstraction and inherientance and also reduce the
+        code redundancy to large extent. Implemented a robust validation for both save as draft and submit case.
+        Properly modelling of data and created a complete module structure from scratch. Due to the
+        implementation of common code Structure, the development time is reduced and making use of oops, created
+        a structure that enables reducing of errors/bugs and easy to debug. Using debugging techniques, resolve
+        the SIT bugs to enable faster releases and making the code bugs/errors free. Also implemnted the State
+        management system in service layer using rxjs Behavioural Subject.
+      </article>
+    </section>
+    <hr>
+    <section id="skills">
+
+      <h3 class="heading">Skills</h3>
+
+      <li class="list-no-style">
+        <ul>
+          <label for="angular"> Angular </label> <progress id="angular" value="100" max="100"></progress>
+          <label for="ts"> Typescript </label> <progress id="ts" value="90" max="100"></progress>
+          <label for="js"> JavaScript </label> <progress id="js" value="90" max="100"></progress>
+          <label for="html"> HTML5 </label> <progress id="html" value="85" max="100"></progress>
+          <label for="css"> CSS </label> <progress id="css" value="80" max="100"></progress>
+          <label for="bootstrap"> Bootstrap </label> <progress id="bootstrap" value="70" max="100"></progress>
+          <label for="git"> GIT </label> <progress id="git" value="60" max="100"></progress>
+          <label for="azure"> Azure Fundamentals </label> <progress id="azure" value="60" max="100"></progress>
+        </ul>
+      </li>
+
+    </section>
+    <hr>
+    <section id="education">
+      <div class="water-mark_4"></div>
+      <div class="row">
+        <div class="col-md-6">
+          <h3 class="heading">Education</h3>
+
+          <h4 class="sub-heading">Swami Vivekananda Institute of Science and Technology <br>
+            (under MAKAUT (previously WBUT))
+          </h4>
+
+          <article><strong>2015 – 2019 (B. Tech in ECE) <br>DGPA: 7.79 </strong></article>
+
+          <br>
+
+          <h4 class="sub-heading">Tender Heart Senior Secondary School, Ranchi <br>
+            (CBSE)
+          </h4>
+
+          <article><strong>2013 – 2014 (Standard XII) <br>Percentage: 72.20</strong> </article>
+
+          <br>
+
+          <h4 class="sub-heading">DAV Public School, Hehal, Ranchi <br>
+            (CBSE)
+          </h4>
+
+          <article><strong>2011-2012 (Standard X) <br>CGPA: 8.6 </strong> </article>
+
+        </div>
+
+        <div class="col-md-6">
+
+          <h3 class="heading">AWARDS AND ACHIEVEMENTS</h3>
+
+          <ul>
+            <li>Award for Outstanding Performance in Q1(in Wipro)</li>
+            <li>Achieved 3rd Rank in Tech Fest for Robocar in 2018. </li>
+            <li>Implemented Design of 3D Printer in 2018</li>
+            <li>Implemented Design of CNC Plotter Machine in 2018. </li>
+            <li>Make a Robot Car using Raspberry pi in 2019</li>
+            <li>Microsoft Azure Fundamental Certified </li>
+          </ul>
+
+        </div>
+      </div>
+    </section>
+
+    <hr>
+
+    <section id="other-skills">
+
+      <div class="row">
+        <div class="col-md-6">
+
+          <h3>OTHER SKILLS</h3>
+
+          <ul>
+            <li>Core Java</li>
+            <li>j2EE</li>
+            <li>OOPs</li>
+            <li>Arduino</li>
+            <li>Raspberry Pi</li>
+            <li>SonarQube</li>
+            <li>Jira</li>
+            <li>AJAX</li>
+            <li>C Language</li>
+            <li>C++ Language</li>
+          </ul>
+
+        </div>
+
+        <div class="col-md-6">
+
+          <h3>Tools Used</h3>
+
+          <ul>
+            <li>VsCode</li>
+            <li>Eclipse</li>
+            <li>CMD</li>
+            <li>Xampp</li>
+            <li>Sublime</li>
+            <li>Arduino IDE</li>
+            <li>Tomcat</li>
+            <li>Ubuntu</li>
+            <li>Raspbian</li>
+          </ul>
+
+        </div>
+
+      </div>
+
+    </section>
+
+    <hr>
+
+    <section id="social-media">
+
+      <div class="row">
+        <div class="col-md-6">
+          <h3 class="heading">HOBBIES</h3>
+
+          <article>
+            Playing Badminton <br>
+            Reading Technical Articles <br>
+            Up skilling and Learning new Technologies. <br>
+            I Like Electronics Gadgets. <br>
+            I love Aquariums and Fishes. <br>
+          </article>
+
+        </div>
+
+        <div class="col-md-6">
+
+          <h3 class="heading">Social Media</h3>
+          <article>
+            <strong>Github : https://github.com/RaviAkhouri30</strong> <br>
+            <strong>linkedin : https://www.linkedin.com/in/ravi-akhouri-6696071a7/</strong>
+          </article>
+
+        </div>
+      </div>
+
+    </section>
+
+    <hr>
+
+    <footer>
+      <a href="https://github.com/RaviAkhouri30"><i class="fab fa-github"></i></a> 
+      <a href="https://www.linkedin.com/in/ravi-akhouri-6696071a7/"><i class="fab fa-linkedin"></i></a>
+      <p>© Copyright 2021 TinDog</p>
+    </footer>
+
+  </div>
 </body>
 
 </html>

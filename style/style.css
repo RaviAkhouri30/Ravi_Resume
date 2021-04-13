@@ -54,6 +54,10 @@ hr {
     margin: 5px auto;
 }
 
+p {
+    color: #fff;
+}
+
 /* 
     ------------------------ Tag Selectors Ends Here -----------------------------
 */
@@ -113,6 +117,10 @@ hr {
 
 .navbar-toggler-icon {
     padding-top: 5px;
+}
+
+.navigation-bar {
+    position: fixed;
 }
 
 .brand {
@@ -322,6 +330,117 @@ hr {
     ----------------------- Skills Section Ends Here --------------------------
 */
 
+/*
+    ------------------------ Education Section Starts Here ----------------------
+*/
+
+#education {
+    position: relative;
+    padding: 2rem 2rem;
+    animation-name: fade-in;
+    animation-duration: 5.0s;
+    background-color: #7868e6;
+    font-weight: 600;
+    color: #fff;
+    line-height: 2;
+    z-index: 0;
+}
+
+#education ul {
+    line-height: 4;
+}
+
+/*
+    ------------------------ Education Section Ends Here ----------------------
+*/
+
+/*
+    ------------------------ social-media Section Starts Here ----------------------
+*/
+
+#social-media {
+    position: relative;
+    padding: 2rem 2rem;
+    animation-name: fade-in;
+    animation-duration: 5.0s;
+    background-color: #7868e6;
+    font-weight: 600;
+    color: #fff;
+    line-height: 2;
+    z-index: 0;
+}
+
+#social-media ul {
+    line-height: 2;
+}
+
+/*
+    ------------------------ Education social-media Ends Here ----------------------
+*/
+
+/*
+    ------------------------ Other Skills Section Starts Here ----------------------
+*/
+
+#other-skills {
+    padding: 2rem 2rem;
+    animation-name: fade-in;
+    animation-duration: 5.0s;
+    background-color: #edeef7;
+    font-weight: 600;
+    color: #7868e6;
+}
+
+#other-skills h3, p {
+    color: #7868e6;
+}
+
+#other-skills h3 {
+    font-size: 2.5rem;
+    font-weight: bolder;
+}
+
+#other-skills p {
+    margin: 50px 0;
+}
+
+#other-skills ul {
+    line-height: 2;
+}
+
+/*
+    ------------------------ Other Skills Section Ends Here ----------------------
+*/
+
+/*
+    ------------------------ Other Skills Section Ends Here ----------------------
+*/
+
+footer {
+    padding: 2rem 2rem;
+    animation-name: fade-in;
+    animation-duration: 5.0s;
+    background-color: #edeef7;
+    font-weight: 600;
+    color: #7868e6;
+    text-align: center;
+}
+
+footer i {
+    font-size: 2rem;
+    margin: 10px 5px;
+}
+
+footer p {
+    margin: 5px auto;
+    font-weight: bolder;
+    font-size: 1.2rem;
+}
+
+/*
+    ------------------------ Other Skills Section Ends Here ----------------------
+*/
+
 /* 
     ----------------------- Common Section Starts Here --------------------------
 */
@@ -348,6 +467,18 @@ hr {
 
 .padding-top-40 {
     padding-top: 40px;
+}
+
+.heading {
+    font-size: 2.5rem;
+    font-weight: bolder;
+    margin: 5px 0 20px;
+}
+
+.sub-heading {
+    font-size: 1.5rem;
+    font-weight: bolder;
+    margin: 5px 0 25px;
 }
 
 /* 
@@ -570,7 +701,6 @@ hr {
         transform: 20px;
     }
 }
-
 
 /* 
     ----------------------- Animation Section Ends Here ---------------------
