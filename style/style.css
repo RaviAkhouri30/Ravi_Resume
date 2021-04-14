@@ -135,6 +135,7 @@ p {
 }
 
 .download-btn {
+    background-color: #fff;
     font-size: 1.2rem;
     font-weight: 600;
     transition: transform 0.4s ease-in-out;
@@ -169,6 +170,7 @@ p {
     position: relative;
     transform: scale(0.7, 0.7);
     margin: -78px -66px;
+    z-index: 999;
 }
 
 .profile-sec:hover {
@@ -186,6 +188,7 @@ p {
     border-radius: 1%;
     background-color: rgba(255, 255, 255, 0.1);
     right: 12%;
+    z-index: -1;
 }
 
 /* 
