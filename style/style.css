@@ -374,6 +374,10 @@ p {
     line-height: 2;
 }
 
+#social-media a {
+    color: #fff;
+}
+
 /*
     ------------------------ Education social-media Ends Here ----------------------
 */
