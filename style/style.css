@@ -221,7 +221,6 @@ p {
     margin: 50px 0;
 }
 
-
 #about-me a {
     color: #7868e6;
 }
@@ -747,6 +746,84 @@ footer p {
     header {
         height: 100%;
     }
+    .water-mark_1 {
+        display: none;
+    }
+}
+
+@media (max-width: 768px) {
+    .navbar {
+        text-align: left;
+    }
+    .navbar-brand {
+        display: none;
+        font-size: 2.5rem;
+        font-weight: 600;
+    }
+    .collapse-navbar-brand {
+        color: #fff;
+        margin: 0;
+        display: inline-block;
+        font-size: 2.2rem;
+        font-weight: 600;
+        font-family: 'Sacramento', cursive;
+    }
+    .collapse-navbar-brand:hover {
+        text-shadow: 2px 4px 5px #b8b5ff;
+    }
+    .profile-sec {
+        margin: auto;
+    }
+    h1 {
+        font-size: 3.625rem;
+    }
+    header {
+        height: 100%;
+    }
+    .water-mark_1 {
+        display: none;
+    }
+    h2 {
+        width: 50%;
+        text-align: center;
+    }
+    .water-mark_3 {
+        display: none;
+    }
+    .water-mark {
+        display: none;
+    }
+    .water-mark_2 {
+        top: 8%
+    }
+    #about-me {
+        text-align: center;
+    }
+    .padding-r-100 {
+        padding: 0;
+    }
+    .contact-info {
+        padding: 0;
+        text-align: left;
+    }
+    #work-experience {
+        text-align: center;
+    }
+    #skills {
+        text-align: center;
+    }
+    #education {
+        text-align: center;
+    }
+    #other-skills {
+        text-align: center;
+    }
+    #social-media {
+        text-align: center;
+    }
+    li {
+        list-style-type: none;
+    }
 }
 
 /*
@@ -764,13 +841,13 @@ Print Functionality
         height: 450px;
         background-color: #7868e6;
     }
-    .water-mark_2{
+    .water-mark_2 {
         z-index: 999;
     }
-    .water-mark_1{
+    .water-mark_1 {
         z-index: 999;
     }
-    .transparent-bg{
+    .transparent-bg {
         z-index: 999;
     }
 }
