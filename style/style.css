@@ -221,6 +221,11 @@ p {
     margin: 50px 0;
 }
 
+
+#about-me a {
+    color: #7868e6;
+}
+
 /* 
     ----------------------- About Me Section Ends Here --------------------------
 */
@@ -741,5 +746,31 @@ footer p {
     }
     header {
         height: 100%;
+    }
+}
+
+/*
+Print Functionality
+*/
+
+@media print {
+    .download-btn {
+        visibility: hidden;
+    }
+    .header {
+        position: relative;
+        margin: 0;
+        padding: 50px 0;
+        height: 450px;
+        background-color: #7868e6;
+    }
+    .water-mark_2{
+        z-index: 999;
+    }
+    .water-mark_1{
+        z-index: 999;
+    }
+    .transparent-bg{
+        z-index: 999;
     }
 }
