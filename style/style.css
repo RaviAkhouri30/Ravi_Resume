@@ -9,7 +9,7 @@ html {
 body {
     font-family: 'Nunito', sans-serif;
     overflow-x: hidden;
-    background-color: #edeef7;
+    background-color: #f4eee8;
 }
 
 header {
@@ -17,7 +17,7 @@ header {
     margin: 0;
     padding: 0;
     height: 550px;
-    background-color: #7868e6;
+    background-color: #325288;
     animation-name: fade-in;
     animation-duration: 5.0s;
     z-index: 0;
@@ -58,6 +58,10 @@ p {
     color: #fff;
 }
 
+article {
+    font-weight: 500;
+}
+
 /* 
     ------------------------ Tag Selectors Ends Here -----------------------------
 */
@@ -65,6 +69,11 @@ p {
 /* 
     ------------------------ Header Section Starts Here -----------------------------
 */
+
+#header-section {
+    padding: 3% 15% 7%;
+    height: 100%;
+}
 
 .header {
     margin: 0;
@@ -124,20 +133,23 @@ p {
 }
 
 .brand {
-    position: absolute;
+    /* position: absolute; */
     animation-name: left-to-right;
     animation-duration: 2s;
 }
 
 .button-container {
-    width: 250px;
-    margin: 50px auto;
+    width: 100%;
+    margin: 50px 0;
+    float: center;
 }
 
 .download-btn {
+    display: block;
     background-color: #fff;
     font-size: 1.2rem;
     font-weight: 600;
+    margin: auto;
     transition: transform 0.4s ease-in-out;
     box-shadow: 3px 3px 4px #b8b5ff;
     animation-name: fade-in;
@@ -155,7 +167,7 @@ p {
 }
 
 .profile-sec {
-    margin: 40px 0 0px auto;
+    margin: 40px auto;
     width: 260px;
     height: 260px;
     border-radius: 50%;
@@ -183,11 +195,11 @@ p {
 
 .transparent-bg {
     position: absolute;
-    width: 75%;
+    width: 100%;
     height: 100%;
     border-radius: 1%;
     background-color: rgba(255, 255, 255, 0.1);
-    right: 12%;
+    right: 0%;
     z-index: -1;
 }
 
@@ -200,16 +212,17 @@ p {
 */
 
 #about-me {
-    padding: 2rem 2rem;
+    /* padding: 2rem 2rem; */
+    padding: 7% 15%;
     animation-name: fade-in;
     animation-duration: 5.0s;
-    background-color: #edeef7;
+    background-color: #f4eee8;
     font-weight: 600;
-    color: #7868e6;
+    color: #325288;
 }
 
 #about-me h3, p {
-    color: #7868e6;
+    color: #325288;
 }
 
 #about-me h3 {
@@ -222,7 +235,7 @@ p {
 }
 
 #about-me a {
-    color: #7868e6;
+    color: #325288;
 }
 
 /* 
@@ -235,10 +248,11 @@ p {
 
 #work-experience {
     position: relative;
-    padding: 2rem 2rem;
+    /* padding: 2rem 2rem; */
+    padding: 7% 15%;
     animation-name: fade-in;
     animation-duration: 5.0s;
-    background-color: #7868e6;
+    background-color: #325288;
     font-weight: 600;
     color: #fff;
     line-height: 2;
@@ -252,7 +266,7 @@ p {
 }
 
 #work-experience .sub-heading {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     font-weight: bolder;
     margin: 5px 0 25px;
 }
@@ -260,7 +274,7 @@ p {
 #work-experience article {
     color: #fff;
     font-weight: 400;
-    line-height: 1.5;
+    line-height: 2;
     font-size: 1rem;
 }
 
@@ -278,12 +292,13 @@ p {
 */
 
 #skills {
-    padding: 2rem 2rem;
+    /* padding: 2rem 2rem; */
+    padding: 7% 15%;
     animation-name: fade-in;
     animation-duration: 5.0s;
-    background-color: #edeef7;
+    background-color: #f4eee8;
     font-weight: 600;
-    color: #7868e6;
+    color: #325288;
 }
 
 #skills .list-no-style {
@@ -310,7 +325,7 @@ p {
 }
 
 #skills progress::-webkit-progress-value {
-    background-color: #7868e6;
+    background-color: #325288;
     transition: background-color 2s ease-in-out;
 }
 
@@ -343,18 +358,19 @@ p {
 
 #education {
     position: relative;
-    padding: 2rem 2rem;
+    /* padding: 2rem 2rem; */
+    padding: 7% 15%;
     animation-name: fade-in;
     animation-duration: 5.0s;
-    background-color: #7868e6;
+    background-color: #325288;
     font-weight: 600;
     color: #fff;
-    line-height: 2;
+    line-height: 1;
     z-index: 0;
 }
 
 #education ul {
-    line-height: 4;
+    line-height: 2;
 }
 
 /*
@@ -367,10 +383,11 @@ p {
 
 #social-media {
     position: relative;
-    padding: 2rem 2rem;
+    /* padding: 2rem 2rem; */
+    padding: 7% 15%;
     animation-name: fade-in;
     animation-duration: 5.0s;
-    background-color: #7868e6;
+    background-color: #325288;
     font-weight: 600;
     color: #fff;
     line-height: 2;
@@ -394,16 +411,17 @@ p {
 */
 
 #other-skills {
-    padding: 2rem 2rem;
+    /* padding: 2rem 2rem; */
+    padding: 7% 15%;
     animation-name: fade-in;
     animation-duration: 5.0s;
-    background-color: #edeef7;
+    background-color: #f4eee8;
     font-weight: 600;
-    color: #7868e6;
+    color: #325288;
 }
 
 #other-skills h3, p {
-    color: #7868e6;
+    color: #325288;
 }
 
 #other-skills h3 {
@@ -431,21 +449,23 @@ footer {
     padding: 2rem 2rem;
     animation-name: fade-in;
     animation-duration: 5.0s;
-    background-color: #edeef7;
+    background-color: #f4eee8;
     font-weight: 600;
-    color: #7868e6;
+    color: #325288;
     text-align: center;
 }
 
 footer i {
     font-size: 2rem;
     margin: 10px 5px;
+    color: #325288;
 }
 
 footer p {
     margin: 5px auto;
     font-weight: bolder;
-    font-size: 1.2rem;
+    font-size: 1rem;
+    color: #325288;
 }
 
 /*
@@ -502,7 +522,7 @@ footer p {
     width: 200px;
     border-radius: 50%;
     background-color: #b8b5ff;
-    background-image: radial-gradient(circle, #fff, #7868e6, #b8b5ff);
+    background-image: radial-gradient(circle, #fff, #325288, #b8b5ff);
     top: 16%;
     left: 2%;
     z-index: -1;
@@ -514,7 +534,7 @@ footer p {
     width: 200px;
     border-radius: 50%;
     background-color: #b8b5ff;
-    background-image: radial-gradient(circle, #fff, #7868e6, #b8b5ff);
+    background-image: radial-gradient(circle, #fff, #325288, #b8b5ff);
     top: 56%;
     left: 85%;
     z-index: -1;
@@ -526,7 +546,7 @@ footer p {
     width: 100px;
     border-radius: 50%;
     background-color: #b8b5ff;
-    background-image: radial-gradient(circle, #fff 5%, #7868e6 54%, #b8b5ff 74%);
+    background-image: radial-gradient(circle, #fff 5%, #325288 54%, #b8b5ff 74%);
     top: 21%;
     left: 27%;
     z-index: -1;
@@ -538,7 +558,7 @@ footer p {
     width: 100px;
     border-radius: 50%;
     background-color: #b8b5ff;
-    background-image: radial-gradient(circle, #fff 5%, #7868e6 54%, #b8b5ff 74%);
+    background-image: radial-gradient(circle, #fff 5%, #325288 54%, #b8b5ff 74%);
     top: 7%;
     right: 9%;
     z-index: -1;
@@ -550,7 +570,7 @@ footer p {
     width: 100px;
     border-radius: 50%;
     background-color: #b8b5ff;
-    background-image: radial-gradient(circle, #fff 5%, #7868e6 54%, #b8b5ff 74%);
+    background-image: radial-gradient(circle, #fff 5%, #325288 54%, #b8b5ff 74%);
     top: 12%;
     right: 3%;
     z-index: -1;
@@ -562,7 +582,7 @@ footer p {
     width: 100px;
     border-radius: 50%;
     background-color: #b8b5ff;
-    background-image: radial-gradient(circle, #fff 5%, #7868e6 54%, #b8b5ff 74%);
+    background-image: radial-gradient(circle, #fff 5%, #325288 54%, #b8b5ff 74%);
     bottom: 5%;
     left: 3%;
     z-index: -1;
@@ -574,7 +594,7 @@ footer p {
     width: 200px;
     border-radius: 50%;
     background-color: #b8b5ff;
-    background-image: radial-gradient(circle, #fff 5%, #7868e6 54%, #b8b5ff 74%);
+    background-image: radial-gradient(circle, #fff 5%, #325288 54%, #b8b5ff 74%);
     bottom: 7%;
     left: 33%;
     z-index: -1;
@@ -586,7 +606,7 @@ footer p {
     width: 80px;
     border-radius: 50%;
     background-color: #b8b5ff;
-    background-image: radial-gradient(circle, #fff 5%, #7868e6 54%, #b8b5ff 74%);
+    background-image: radial-gradient(circle, #fff 5%, #325288 54%, #b8b5ff 74%);
     top: 16%;
     left: 62%;
     z-index: -1;
@@ -598,7 +618,7 @@ footer p {
     width: 80px;
     border-radius: 50%;
     background-color: #b8b5ff;
-    background-image: radial-gradient(circle, #fff 5%, #7868e6 54%, #b8b5ff 74%);
+    background-image: radial-gradient(circle, #fff 5%, #325288 54%, #b8b5ff 74%);
     bottom: 16%;
     right: 32%;
     z-index: -1;
@@ -611,7 +631,7 @@ footer p {
     width: 35px;
     border-radius: 50%;
     background-color: #b8b5ff;
-    background-image: radial-gradient(circle, #fff, #7868e6, #fff);
+    background-image: radial-gradient(circle, #fff, #325288, #fff);
 }
 
 /* 
@@ -620,12 +640,12 @@ footer p {
 
 @keyframes left-to-right {
     from {
-        position: absolute;
-        left: -200px;
+        position: relative;
+        margin-left: -200px;
     }
     to {
-        position: absolute;
-        left: 0px;
+        position: relative;
+        margin-left: 0px;
     }
 }
 
@@ -797,6 +817,7 @@ footer p {
         top: 8%
     }
     #about-me {
+        padding: 2rem 2rem;
         text-align: center;
     }
     .padding-r-100 {
@@ -807,18 +828,23 @@ footer p {
         text-align: left;
     }
     #work-experience {
+        padding: 2rem 2rem;
         text-align: center;
     }
     #skills {
+        padding: 2rem 2rem;
         text-align: center;
     }
     #education {
+        padding: 2rem 2rem;
         text-align: center;
     }
     #other-skills {
+        padding: 2rem 2rem;
         text-align: center;
     }
     #social-media {
+        padding: 2rem 2rem;
         text-align: center;
     }
     li {
@@ -839,7 +865,7 @@ Print Functionality
         margin: 0;
         padding: 50px 0;
         height: 450px;
-        background-color: #7868e6;
+        background-color: #325288;
     }
     .water-mark_2 {
         z-index: 999;
@@ -850,4 +876,9 @@ Print Functionality
     .transparent-bg {
         z-index: 999;
     }
+}
+
+.profile-pic10 {
+    width: 10px;
+    height: 10px;
 }
